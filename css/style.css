@@ -80,39 +80,49 @@ nav .profile-link{
     /*lo hizo el prof, pero lo vi innecesario
 }*/
 
-.main .main-section{
-    position:relative;
-    display: inline-block;
-    text-align: center;
-    overflow: hidden;
-    /*display:grid;
+.home-main .main-section{
+    height: 100px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    /*position: relative;*/
+    /*display: inline-block;*/
+    /*overflow: hidden;*/
     /*yo lo hice*/
 } 
-.main .main-section img{
+.home-main .main-text{
+    /*position: absolute;*/
+    /*top: 10%;
+    left: 10%;*/
+    width: 500px;
+    font-size: 30px;
+    color: #0c0b0b;
+    text-align: center;
+    letter-spacing: 8px;
+    /*transform: translate(-50%, -50%);*/
+}
+.home-main .main-button{
+    width: 80px;
+    align-items: center;
+    margin: 10px 10px;
+    color:#0a0a0a;
+    border-color: #ffffff;
+    font-weight: bold;
+    font-size: 1rem;
+    /*position: absolute;*/
+    /*top: 10%;
+    left: 10%;*/
+
+}
+
+.home-main img{
     width:100%;
     height: 100%;
     position: relative;
+    background-size: cover;
+    background-position: center;
 
     /*yo lo hice*/
 }
-.main .main-text{
-    position: absolute;
-    top: 10%;
-    left: 10%;
-    color: #ffffff;
-    font-size:16px ;
-    transform: translate(-50%, -50%);
-}
 
-.main .main-button{
-    position: absolute;
-    align-items: center;
-    top: 10%;
-    left: 10%;
-    margin: 80px;
-    color:#48cfad;
-    border-color: #ffffff;
-    font-weight: bold;
-
-    
-}
