@@ -1,3 +1,4 @@
+/*Para realizar comentarios en css*/
 body{  
     margin: 0;
     padding: 0;
@@ -14,7 +15,7 @@ a {
 }
 header{
     width: 100%;
-    height: 140px;
+    height: 130px;   
     display: grid;
     grid-template-rows: 1fr 1fr;
 }
@@ -35,25 +36,83 @@ header .header-icons-container .icons{
     justify-self: end;
     margin-right: 50px;
 }
+header .icons span::before{
+    color: #ffffff;
+    font-size: 25px;
+}
 
-header nav{
+
+nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height:90px;
+}
+/*nav {
     width: 100%;
     height: 100px;
-    background-color:#ffffff ;
-
+    background-color:#ffffff;
+    -yo lo modifique
+}*/
+nav .nav-logo-container{
+    margin-left: 50px;
 }
 nav .profile-link{
     text-decoration: underline;
+    color: black;
+    display: flex;
+    justify-items: flex-end;
+    align-items: center;
+    justify-self: end;
+    margin-right: 50px;
+    /*yo lo modifique*/
+} nav .nav-logo-container img{
+    width: 195px;
+    margin-top: 10px;
+    /*yo lo hice*/
 }
-.main .main-section p{
-    font-size: ;
-}
+/*nav .profile-link{
+    text-decoration: underline;
+    /*yo lo hice
+}*/
+/*nav .profile-link a{
+    color: black;
+    border-bottom: 1px solid black;
+    /*lo hizo el prof, pero lo vi innecesario
+}*/
+
 .main .main-section{
-    width: 100%;
-    height: 70px;
-    display:grid;
-    background-image:;  
-    background-size: ;
-    background-position:50%;
-    background-repeat: no-repeat;
+    position:relative;
+    display: inline-block;
+    text-align: center;
+    overflow: hidden;
+    /*display:grid;
+    /*yo lo hice*/
+} 
+.main .main-section img{
+    width:100%;
+    height: 100%;
+    position: relative;
+
+    /*yo lo hice*/
+}
+.main .main-text{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    color: #ffffff;
+    font-size:16px ;
+    transform: translate(-50%, -50%);
+}
+
+.main .main-button{
+    position: absolute;
+    align-items: center;
+    top: 10%;
+    left: 10%;
+    margin: 80px;
+    color:#48cfad;
+    border-color: #ffffff;
+    font-weight: bold;
+
+    
 }
