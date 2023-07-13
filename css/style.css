@@ -97,7 +97,7 @@ nav .profile-link{
     left: 10%;*/
     width: 500px;
     font-size: 30px;
-    color: #0c0b0b;
+    color: #faf9f9;
     text-align: center;
     letter-spacing: 8px;
     /*transform: translate(-50%, -50%);*/
@@ -106,8 +106,11 @@ nav .profile-link{
     width: 80px;
     align-items: center;
     margin: 10px 10px;
-    color:#0a0a0a;
+    padding: 10px 10px;
+    color:#ffffff;
+    text-align: center;
     border-color: #ffffff;
+    background-color: #48cfad;
     font-weight: bold;
     font-size: 1rem;
     /*position: absolute;*/
@@ -116,13 +119,18 @@ nav .profile-link{
 
 }
 
-.home-main img{
+/*.home-main img{
     width:100%;
     height: 100%;
     position: relative;
     background-size: cover;
     background-position: center;
 
-    /*yo lo hice*/
+    /*yo lo hice
+}*/
+.home-main{
+    background-image: url("./assets/img/Cover.png");
+    background-position: center center;
+    background-repeat: no repeat;
+    background-position: cover;
 }
-
